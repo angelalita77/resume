@@ -1,0 +1,43 @@
+html, body {
+    margin: 10px;
+    padding: 0;
+}
+
+p {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: #333;
+}
+
+.resume {
+    max-width: 70%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+
+
+
+header {
+
+    padding: 10px;
+    background-color: #f8f9fa;
+    width: 100%;
+    border: 2px solid #196bbd;
+    display: flex;
+}
+
+img {
+    width: 160px;
+    height: 160px;
+    border: 2px solid #196bbd;
+    /* display: inline-block; */
+}
+.header-content {
+border: 2px solid #f16722;
+width:auto;
+/* display: inline-block; */
+}
+
