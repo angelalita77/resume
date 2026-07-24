@@ -12,8 +12,8 @@ p {
 
 .resume {
     max-width: 70%;
-    margin: 0 auto;
-    padding: 20px;
+    margin: auto;
+    padding: 10px;
     background-color: #fff;
     border: 1px solid #ccc;
 }
@@ -40,4 +40,12 @@ border: 2px solid #f16722;
 width:auto;
 /* display: inline-block; */
 }
+
+.experience-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f8f9fa;
+}
+
 
