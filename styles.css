@@ -1,51 +1,83 @@
-html, body {
-    margin: 10px;
-    padding: 0;
+
+*{
+    box-sizing: border-box;
 }
 
-p {
+body {
+    margin: 0;
+    padding: 32px;
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    background-color: #f4f4f4;
+    color: #222;
+}
+
+
+
+/* p {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 1.5;
     color: #333;
-}
+} */
 
 .resume {
-    max-width: 70%;
-    margin: auto;
-    padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ccc;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
+section {
+    margin-top: 32px;
+    padding: 24px;
+    background-color: white;
+    border-radius: 12px;
+}
 
+h1, h2, h3, p {
+    margin: 0;
+}
 
-header {
-
-    padding: 10px;
-    background-color: #f8f9fa;
-    width: 100%;
-    border: 2px solid #196bbd;
+.resume-header {
+    /* border: 2px solid #196bbd; */
     display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
 }
 
-img {
-    width: 160px;
-    height: 160px;
-    border: 2px solid #196bbd;
-    /* display: inline-block; */
+.avatar {
+    width: 150px;
+    height: 150px;
+    object-fit: cover; /* Ensures the image covers the entire area without distortion */
+    /* border-radius: 50%; */
+    border: 2px solid #414447;
 }
+
 .header-content {
-border: 2px solid #f16722;
-width:auto;
+/* border: 2px solid #f16722; */
+width: auto;
 /* display: inline-block; */
 }
 
 .experience-card {
+    flex-basis: 260px;
+    flex-grow:1;
+    padding: 20px;
     border: 1px solid #ccc;
-    padding: 10px;
-    margin-bottom: 10px;
-    background-color: #f8f9fa;
+    border-radius: 8px;
+    background-color: white;
 }
 
+.skill {
+    padding: 10px 10px;
+    background-color: #dce8f5;
+    border-radius: 20px;
+}
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
 
